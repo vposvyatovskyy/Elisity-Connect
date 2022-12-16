@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Elisity_Connect</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Nav-Logo.png" />
+    <None Remove="Resources\Icons\icons8-checkmark-24.png" />
+    <None Remove="Resources\Icons\icons8-combo-chart-24.png" />
+    <None Remove="Resources\Icons\icons8-connected-64.png" />
+    <None Remove="Resources\Icons\icons8-heart-monitor-50.png" />
+    <None Remove="Resources\Icons\icons8-info-30.png" />
+    <None Remove="Resources\Icons\icons8-messages-50.png" />
+    <None Remove="Resources\Icons\icons8-thin-client-24.png" />
+    <None Remove="Resources\Icons\icons8-user-50.png" />
+    <None Remove="Resources\Icons\icons8-web-address-50.png" />
+    <None Remove="Resources\Icons\Nav-Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Icons\icons8-checkmark-24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-combo-chart-24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-connected-64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-heart-monitor-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-info-30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-messages-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-thin-client-24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-user-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\icons8-web-address-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Icons\Nav-Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Nav-Logo.png" />
+  </ItemGroup>
+
+</Project>

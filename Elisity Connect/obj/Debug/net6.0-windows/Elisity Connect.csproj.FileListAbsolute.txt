@@ -1,0 +1,34 @@
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Elisity Connect.exe
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Elisity Connect.deps.json
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Elisity Connect.runtimeconfig.json
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Elisity Connect.dll
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Elisity Connect.pdb
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.csproj.AssemblyReference.cache
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\App.g.cs
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect_MarkupCompile.cache
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect_MarkupCompile.lref
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\MainWindow.baml
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.g.resources
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.AssemblyInfoInputs.cache
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.AssemblyInfo.cs
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.csproj.CoreCompileInputs.cache
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.dll
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\refint\Elisity Connect.dll
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.pdb
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect.genruntimeconfig.cache
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\ref\Elisity Connect.dll
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-checkmark-24.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-combo-chart-24.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-connected-64.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-messages-50.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\Nav-Logo.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Resources\style.baml
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-heart-monitor-50.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-info-30.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-thin-client-24.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-user-50.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\bin\Debug\net6.0-windows\Resources\Icons\icons8-web-address-50.png
+C:\git\Elisity Connect\Elisity Connect\Elisity Connect\obj\Debug\net6.0-windows\Elisity Connect_Content.g.cs

@@ -1,0 +1,142 @@
+﻿<Window x:Class="Elisity_Connect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Elisity_Connect" xmlns:local1="clr-namespace:Elisity_Connect.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600">
+    <Window.DataContext>
+        <local1:MainWindowViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+    <DockPanel x:Name="MainPanel">
+
+        <DockPanel x:Name="Header" Style="{StaticResource HeaderStyle}">
+            <Grid x:Name="ConnectionPanel">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Grid.RowSpan="2" Source="/Resources/Icons/icons8-connected-64.png"/>
+                <Label Grid.Column="1" Grid.Row="0" Content="Connected"/>
+                <Label Grid.Column="1" Grid.Row="1" Content="{Binding CurrentDateTime, Mode=OneWay}"/>
+                <Border Grid.Column="2" Grid.Row="1" CornerRadius="5">
+                    <Button Grid.Column="2" Grid.Row="1" Content="Logout">
+                    </Button>
+                </Border>
+            </Grid>
+        </DockPanel>
+        <TabControl >
+            <TabItem>
+                <TabItem.Header>
+                    <Border Style="{StaticResource TabItemHeader}">
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-checkmark-24.png"/>
+                            <TextBlock Text="Status"/>
+                        </StackPanel>
+                    </Border>
+                </TabItem.Header>
+                <WrapPanel Style="{StaticResource StatusTabContentStyle}">
+                    <Border >
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-checkmark-24.png"/>
+                            <Label HorizontalContentAlignment="Center" VerticalAlignment="Bottom">Tunnel IP</Label>
+                            <TextBox>10.63.163.31</TextBox>
+                        </StackPanel>
+                    </Border>
+                    <Border>
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-checkmark-24.png"/>
+                            <Label HorizontalContentAlignment="Center" VerticalAlignment="Bottom">arun.ar Logged-In</Label>
+                            <TextBox>Sun, 28 Nov 2021 23:22:15 IST</TextBox>
+                        </StackPanel>
+                    </Border>
+                    <Border>
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-checkmark-24.png"/>
+                            <Label HorizontalContentAlignment="Center" VerticalAlignment="Bottom">Hearbeat</Label>
+                            <TextBox>UP</TextBox>
+                        </StackPanel>
+                    </Border>
+                </WrapPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <Border Style="{StaticResource TabItemHeader}">
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-combo-chart-24.png"/>
+                            <TextBlock Text="Statistics"/>
+                        </StackPanel>
+                    </Border>
+                </TabItem.Header>
+                <Label>Ipsum</Label>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <Border Style="{StaticResource TabItemHeader}">
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-messages-50.png"/>
+                            <TextBlock Text="Messages"/>
+                        </StackPanel>
+                    </Border>
+                </TabItem.Header>
+                <Label>Lorem</Label>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <Border Style="{StaticResource TabItemHeader}">
+                        <StackPanel>
+                            <Image Source="/Resources/Icons/icons8-thin-client-24.png"/>
+                            <TextBlock Text="Route Details" />
+                        </StackPanel>
+                    </Border>
+                </TabItem.Header>
+                <Label>Lorem</Label>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <Border Style="{StaticResource TabItemHeader}">
+                        <StackPanel Orientation="Vertical">
+                            <Image Source="/Resources/Icons/icons8-info-30.png"/>
+                            <TextBlock Text="About"/>
+                        </StackPanel>
+                    </Border>
+                </TabItem.Header>
+                <Label>Lorem</Label>
+            </TabItem>
+        </TabControl>
+        <Border>
+            <DockPanel Style="{StaticResource FooterStyle}" Name="Footer">
+                <DockPanel.Resources>
+                    <ControlTemplate x:Key="FooterButtonTemplate" TargetType="Button">
+                        <Border Background="White" BorderThickness="5" CornerRadius="6" >
+                            <TextBlock  Margin="5 0" >View Alerts and Details</TextBlock>
+                        </Border>
+                    </ControlTemplate>
+                    <Style x:Key="FooterButtonStyle" TargetType="{x:Type Button}">
+                        <Setter Property="Template" Value="{StaticResource FooterButtonTemplate}"/>
+                    </Style>
+                    <Style x:Key="FooterLabelStyle" TargetType="Label">
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Margin" Value="0 0 0 0"/>
+                    </Style>
+                </DockPanel.Resources>
+                <Label Style="{StaticResource FooterLabelStyle}" Content="{Binding ActiveTime, Mode=OneWay}"/>
+                <Button Style="{StaticResource FooterButtonStyle}" HorizontalAlignment="Right" Margin="0 0 50 0"></Button>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</Window>
